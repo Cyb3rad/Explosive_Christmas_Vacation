@@ -2,3 +2,8 @@ body {
   background-image: url("images/Christmas_Vacation.png");
   background-size: cover;
 }
+
+header {
+  background: white;
+  padding: 20px;
+}
