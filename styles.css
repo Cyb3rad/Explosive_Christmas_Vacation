@@ -12,6 +12,14 @@ body {
   margin: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .middle-left-image,
+  .bottom-right-image,
+  .bottom-image {
+    position: static; /* Change to static positioning on smaller screens */
+  }
+}
+
 body::after {
   content: '';
   position: fixed;
